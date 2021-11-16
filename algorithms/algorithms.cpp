@@ -2,5 +2,5 @@
 int shortestPaths();
 
 int main() {
-    std::cout << "shortestPaths returned: " << shortestPaths() << std::endl;
+  std::cout << "shortestPaths returned: " << shortestPaths() << std::endl;
 }
