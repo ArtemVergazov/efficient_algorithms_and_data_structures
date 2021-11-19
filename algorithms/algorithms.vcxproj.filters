@@ -21,5 +21,8 @@
     <ClCompile Include="hw1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="hw2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
