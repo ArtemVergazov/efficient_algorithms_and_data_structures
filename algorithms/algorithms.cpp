@@ -1,6 +1,8 @@
 ﻿#include <iostream>
-int shortestPaths();
+//int shortestPaths();
+int dominoes();
 
 int main() {
-  std::cout << "shortestPaths returned: " << shortestPaths() << std::endl;
+	// std::cout << shortestPaths() << std::endl;
+	std::cout << dominoes() << std::endl;
 }

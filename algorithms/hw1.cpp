@@ -21,7 +21,7 @@ int shortestPaths() {
 	// Generate reversed graph.
 	std::unordered_map<size_t, std::vector<std::pair<size_t, size_t>>> adj_list_back;
 	for (size_t i = 0; i < adj_list.size(); ++i) {
-		for (size_t j = 0; j < adj_list[i].size(); ++j){
+		for (size_t j = 0; j < adj_list[i].size(); ++j) {
 			adj_list_back[adj_list[i][j].first].push_back(std::make_pair(i, adj_list[i][j].second));
 		}
 	}
@@ -38,7 +38,7 @@ int shortestPaths() {
 	};
 	std::priority_queue<std::pair<size_t, size_t>, std::vector<std::pair<size_t, size_t>>, decltype(pair_greater)> begin(pair_greater);
 	std::priority_queue<std::pair<size_t, size_t>, std::vector<std::pair<size_t, size_t>>, decltype(pair_less)> end(pair_less);
-	
+
 	size_t num_visited = 0;
 	std::vector<bool> boarder(n);
 	Q.push(std::make_pair(s, 0));
@@ -86,7 +86,7 @@ int shortestPaths() {
 			for (auto neighbour : adj_list_back[current.first]) {
 				if (!visited_back[neighbour.first - 1] && dist_back[current.first - 1] + neighbour.second < dist_back[neighbour.first - 1]) {
 					dist_back[neighbour.first - 1] = dist_back[current.first - 1] + neighbour.second;
-					Q_back.push(neighbour);        
+					Q_back.push(neighbour);
 				}
 			}
 
