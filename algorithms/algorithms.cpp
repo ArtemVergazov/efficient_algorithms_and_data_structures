@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 // int shortestPaths();
 // int dominoes();
-unsigned girlOnTheBall();
+size_t girlOnTheBall();
 
 int main() {
 	// std::cout << shortestPaths() << std::endl;
