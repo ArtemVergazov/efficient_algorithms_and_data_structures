@@ -27,5 +27,14 @@
     <ClCompile Include="hw3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="hw4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arman_hw4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="seva_hw4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

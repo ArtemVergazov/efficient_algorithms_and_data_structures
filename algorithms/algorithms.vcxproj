@@ -152,9 +152,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="algorithms.cpp" />
+    <ClCompile Include="arman_hw4.cpp" />
     <ClCompile Include="hw1.cpp" />
     <ClCompile Include="hw2.cpp" />
     <ClCompile Include="hw3.cpp" />
+    <ClCompile Include="hw4.cpp" />
+    <ClCompile Include="seva_hw4.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
